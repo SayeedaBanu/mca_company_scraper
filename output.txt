@@ -1,0 +1,7 @@
+Example Company Data
+
+Company Name: Example Pvt Ltd
+CIN: U12345KA2020PTC012345
+Status: Active
+Incorporation Date: 2020-01-01
+...

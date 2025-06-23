@@ -1,22 +1,42 @@
-# MCA Company Data Scraper (Manual Captcha)
+# MCA Company Scraper
 
-This project is a **Python-based web scraper** designed to extract company master data from the **Ministry of Corporate Affairs (MCA), Government of India** website.
+## 📌 Overview
+This project demonstrates scraping of **Company Master Data** from the **MCA (Ministry of Corporate Affairs)** website using Python and Selenium.
 
-## ⚙️ Features
-- Uses **Selenium** for web automation
-- Requires **manual captcha entry** by the user
-- **Outputs data to a text file**
+Two methods are provided for handling CAPTCHA challenges:
 
-## 🚨 Disclaimer
-- This script is for **educational purposes** only.
-- Please comply with MCA's **Terms of Service** when using this script.
-- ⚠️ **No real data is provided in this repository.**
-- ✅ The **actual output file (`output.txt`) has been shared privately with my mentor/instructor.**
+1. **Manual Mode (`mca_manual.py`)** — CAPTCHA is manually entered by the user.
+2. **OCR Mode (`mca_auto.py`)** — CAPTCHA is automatically solved using **Tesseract OCR**.
+
+Extracted company details are saved to `output.txt`.
+
+---
+
+## ✅ Features
+- Automated form filling for **Company/LLP Master Data** search.
+- Supports both **manual** and **OCR-based** CAPTCHA entry.
+- Output saved to a **.txt file** for reference and reporting.
+- **Anti-detection browser configurations** to improve stability.
+- Clean and modular code for easy maintenance and extension.
+
+---
+
+## ⚠️ Disclaimer
+This project was developed for **educational purposes only**. Automation on government platforms should comply with their respective **terms of use and legal guidelines**.  
+**Paid services like 2Captcha were not used.**
+
+---
 
 ## 📂 Files Included
-- `mca_manual_scraper.py` → Main script
-- `output_example.txt` → Dummy/example output format
+- `mca_manual.py` → Manual CAPTCHA entry version.
+- `mca_auto.py` → Automated CAPTCHA solving with OCR.
+- `output.txt` → Scraped company details.
+- `README.md` → Project documentation.
+
+---
 
 ## 📩 Contact
-For questions or suggestions, contact me at: **[zaffarullahs20@gmail.com]**
-
+For further queries or improvements:
+- **Name:** Sayeeda Banu
+- **Email:** zaffarullas20@gmail.com
+- **GitHub:** [https://github.com/SayeedaBanu/mca_company_scraper](https://github.com/SayeedaBanu/mca_company_scraper)

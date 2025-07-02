@@ -18,7 +18,7 @@ import re              # Regex for text validation
 CONFIG = {
     "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",  # Where Tesseract lives
     "url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html",  # The site to hit
-    "company_name": "HOSTUP CLOUD TECHNOLOGIES PRIVATE LIMITED",  # Company to search
+    "company_name": "Google",  # Company to search
     "max_retries": 5,  # Give it a few tries, why not?
     "retry_delay": 2,  # Wait a couple seconds between tries
     "timeout": 20,     # Max wait time, seems reasonable
